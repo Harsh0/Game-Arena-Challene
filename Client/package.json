@@ -1,0 +1,28 @@
+{
+  "name": "gameclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsh",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "*",
+    "gulp": "*",
+    "gulp-concat": "^2.6.0",
+    "gulp-html-replace": "^1.6.0",
+    "gulp-react": "^3.1.0",
+    "gulp-uglify": "^1.5.3",
+    "object-assign": "*",
+    "reactify": "*",
+    "vinyl-source-stream": "*"
+  },
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-cookie": "^0.4.7",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.6.0"
+  }
+}

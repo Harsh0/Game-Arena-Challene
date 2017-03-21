@@ -1,0 +1,57 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height:100px;
+  /* Set the fixed height of the footer here */
+}
+.input-group-lg{
+  margin-bottom: 20px;
+}
+
+.score{
+color:#f4a041;
+font-size:20px;
+}
+.dcpp{
+  margin-bottom: 15px;
+}
+.dcp{
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+}
+.info{
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.info h3{
+  color:grey;
+  font-size: 20px;
+  z-index:1000;
+}
+.info h4{
+  color:grey;
+  font-size: 14px;
+  z-index: -10;
+}
+.dataContainer{
+  display:flex;
+}
+.genereDesc{
+  border-top: 2px solid darkgrey;
+  font-size: 15px;
+}
+.glyphicon-star{
+  color:#f4a041;
+  margin-top: 10px;
+  font-size:30px;
+}

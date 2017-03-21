@@ -1,0 +1,7 @@
+{
+	"dbURI":"mongodb://localhost/gameAppCapillary",
+	"port":8080,
+	"gameCollection":"gameDetails",
+	"userCollection":"userDetails",
+	"sessionSecret":"Capillary"
+}
