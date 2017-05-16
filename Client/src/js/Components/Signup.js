@@ -12,7 +12,7 @@ var Signup = React.createClass({
                     'password': this.refs.pass.value,
                 }
                 $.ajax({
-                    url:'http://localhost:8080/user/signup',
+                    url:'/user/signup',
                     type: 'POST',
                     data: signupForm,
                     success: function(data)
